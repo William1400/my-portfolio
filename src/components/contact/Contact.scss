@@ -1,0 +1,185 @@
+.contact {
+
+    height: 100vh;
+
+    position: relative;
+
+    &-background {
+
+        width: 30px;
+        height: 100%;
+        position: absolute;
+
+        background-color: #B0C3D6;
+    }
+
+    &-wrapper {
+        
+        display: flex;
+        align-items: center;
+
+        padding: 50px;
+    }
+
+    &-left {
+
+        flex: 1;
+
+        padding-left: 50px;
+    }
+
+    &-right {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex: 1;
+
+        margin-top: 60px;
+        padding-right: 150px;
+
+    }
+
+    &-title {
+
+        font-size: 50px;
+        width: 100%;
+    }
+
+    &-description {
+
+        font-weight: 200;
+    }
+
+    &-info {
+
+        display: flex;
+        align-content: flex-start;
+        flex-direction: column;
+        gap: 40px;
+
+        padding: 50px;
+        margin: 10px 0px;
+    
+    }
+
+    &-info-item {
+
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        color: #6c7aa8;
+
+        a {
+            
+            color:#6c7aa8;
+        }
+    }
+
+    &-info-item:hover {
+        
+        a {
+            background-color: #B0C3D6;
+            border-radius: 10px;
+        }
+    }
+
+    form {
+
+        margin-top: 30px;
+    }
+    
+    input {
+    
+        width: 50%;
+        height: 50px;
+    
+        margin: 10px 0;
+        padding-left: 10px;
+        font-size: 15px;
+    
+        border: none;
+        border-bottom: 2px solid #B0C3D6;
+    }
+    
+    textarea {
+    
+        resize: none; 
+        
+        width: 100%;
+
+        margin: 50px 0;
+        padding-left: 15px;
+    
+        border: 2px solid #B0C3D6;
+    
+        font-size: 14px;
+    }
+    
+    button {
+    
+        border: none;
+        padding: 15px;
+
+        cursor: pointer;
+        color: white;
+        background-color: #B0C3D6;
+    }
+
+    .button:hover {
+        background-color: #6c7aa8
+    }
+    .button:active {
+        background-color: #B0C3D6;
+        box-shadow: 0 5px #6c7aa8;
+        transform: translateY(4px);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    
+    .contact {
+        
+        &-wrapper {
+
+            flex-direction: column;
+    
+            padding: 0 50px;
+        }
+
+        &-title {
+
+            font-size: 30px;
+        }
+        
+        &-info-item {
+
+            margin: 20px 0px;
+            width: 100%;
+        }
+
+        &-description {
+
+            display: none;
+        }
+
+       
+    }
+
+    form {
+
+        margin-top: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    input {
+
+        width: 35%;
+        height: 40px;
+
+        margin: 10px;
+    }
+}

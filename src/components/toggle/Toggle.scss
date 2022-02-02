@@ -1,0 +1,40 @@
+.toggle {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 50px;
+    height: 25px;
+    padding: 2.5px;
+
+    border: 3px solid #B0C3D6;
+    border-radius: 20px;
+    position: fixed;
+    
+    top: 10px;
+    right: 10px;
+    z-index: 999;
+
+    &-icon {
+
+        width: 30px;
+        height: 30px;
+    }
+
+    &-button {
+
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        // left: 25px;
+        right: 25px;
+
+        cursor: pointer;
+
+        border-radius: 50%;
+        background-color: #6c7aa8;
+
+    }
+}
+
