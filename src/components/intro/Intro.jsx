@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Intro.scss";
 import Me from "../../img/me.png"
-// import CloudQueueIcon from '@mui/icons-material/CloudQueue';
+import CloudQueueIcon from '@mui/icons-material/CloudQueue';
 
 const Intro = () => {
 
@@ -25,7 +25,8 @@ const Intro = () => {
                     I just finished my bootcamp and I want to keep learning more.
                     Start a career as a front-end developer without neglecting the back-end.
                     <br/>
-                    {/* `Limit is the Sky` <CloudQueueIcon /> */}
+                    `Limit is the Sky` 
+                    <CloudQueueIcon />
                     </p>
                 </div>
                 <svg

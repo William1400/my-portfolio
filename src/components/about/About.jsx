@@ -21,9 +21,9 @@ const About = () => {
                     ``Don't pray for an easy life, pray for strength to endure a hard one.`` B.L
                 </p>
                 <p className="about-description">
-                    Cook in professional retraining, my passion for IT and development continues to grow and the pandemic paved the way for me.
+                     A former cook in professional retraining, I decided to develop my passion for IT and development that kept on growing as the pandemic paved the way for me.
                     I have always worked in a team and so I naturally made the choice of an active pedagogy to start learning code.
-                    Continue to evolve in a fulfilling environment. Here is a summary of my new professional goal.
+                    My new professional goal is to continue to evolve in a fulfilling environment.
                 </p>
                 <button className="button">
                     <a href={Cv} download>My curriculum</a>
@@ -33,7 +33,7 @@ const About = () => {
                     <div className="about-award-texts">
                         <h4 className="about-award-title">My first challenge</h4>
                         <p className="about-award-description">
-                        After just three months of classes, my first challenge the Hackathon
+                        After just three months of training, I took up the challenge of Hackathon.
                         </p>
                     </div>
                 </div>

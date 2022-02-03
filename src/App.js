@@ -20,7 +20,7 @@ export default function App() {
             <Toggle />
             <Intro />
             <About />
-            <Skills />
+            {/* <Skills /> */}
             <ProductList />
             <Contact />
         </div>

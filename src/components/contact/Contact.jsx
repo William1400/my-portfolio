@@ -1,12 +1,11 @@
 import React, { useContext, useRef, useState } from 'react';
 import "../contact/Contact.scss";
 import emailjs from 'emailjs-com';
-// import PhoneIcon from '@material-ui/icons/Phone';
-// import HomeIcon from '@material-ui/icons/Home';
-
-// import AlternateEmailIcon from '@material-ui/icons/AlternateEmail';
-// import GitHubIcon from '@material-ui/icons/GitHub';
-// import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import PhoneIcon from '@mui/icons-material/Phone';
+import HomeIcon from '@mui/icons-material/Home';
+import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 import { ThemeContext } from '../../context';
 
@@ -44,7 +43,7 @@ const Contact = () => {
                     <h1 className="contact-title">
                         Contact me
                     </h1>
-                    {/* <div className="contact-info">
+                    <div className="contact-info">
                         <div className="contact-info-item">
                             <PhoneIcon fontSize="large" />0470/506238
                         </div>
@@ -64,7 +63,7 @@ const Contact = () => {
                                 <LinkedInIcon fontSize="large" />
                             </a>
                         </div>
-                    </div>   */}
+                    </div>  
                 </div>
                 <div className="contact-right">
                     <p className="contact-description">
