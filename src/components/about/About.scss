@@ -65,8 +65,9 @@
         margin: 20px 0px;
     }
 
-    &-descriptions {
+    &-description {
 
+        display: flex;
         font-weight: 400;
     }
 }
@@ -95,6 +96,7 @@
 
         color: #6c7aa8f1;
     }
+
 }
 
 a:link {
@@ -118,6 +120,11 @@ button {
     background-color: #B0C3D6;
 }
 
+.button {
+
+    display: flex;
+}
+
 .button:hover {
     background-color: #6c7aa8
 }
@@ -134,7 +141,8 @@ button {
         flex-direction: column;
         text-align: center;
         align-items: center;
-        margin-top: 50px;
+        justify-content: center;
+        
 
         &-left {
 
@@ -154,7 +162,9 @@ button {
         &-right {
 
             padding: 20px;
+            align-items: center;
         }
     }
+
 
 }

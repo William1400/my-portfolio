@@ -143,45 +143,56 @@
 @media screen and (max-width: 480px) {
     
     .contact {
-        
+
+        &-background {
+
+            width: 20px;
+        }
+
         &-wrapper {
 
             flex-direction: column;
+            justify-content: center;
+            gap: 0px;
     
-            padding: 0 50px;
+            padding: 0px 20px;
+        }
+
+        &-left {
+
+            gap: 0px;
+            padding-left: 30px;
+            height: 100%;
         }
 
         &-title {
 
             font-size: 30px;
         }
+
+        &-info {
+
+            justify-content: center;
+            gap: 20px;
+
+            padding-top: 50px;
+        }
         
         &-info-item {
 
-            margin: 20px 0px;
-            width: 100%;
+            margin: 30px 20px;
         }
 
         &-description {
 
             display: none;
         }
-
        
     }
 
     form {
 
-        margin-top: 0;
-        display: flex;
-        flex-wrap: wrap;
+       display: none;
     }
 
-    input {
-
-        width: 35%;
-        height: 40px;
-
-        margin: 10px;
-    }
 }

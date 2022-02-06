@@ -36,14 +36,16 @@
     .product-list {
 
         padding: 10px;
+        display: none;
 
         &-texts {
 
             width: 100%;
         }
-         &-description {
+
+        &-description {
 
             display: none;
-         }
+        }
     }
 }

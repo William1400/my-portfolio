@@ -18,7 +18,7 @@ const Skills = () => {
             <div className="skills-left">
                 <h1 className="skills-description">My skills</h1> 
                 <div className="skills-titles">
-                    <div className="skills-slide-right">
+                    <div className="skills-slide-left">
                         <div className="skills-title-item">Stress management</div>
                         <div className="skills-title-item">Active listening</div>
                         <div className="skills-title-item">Calmness</div>

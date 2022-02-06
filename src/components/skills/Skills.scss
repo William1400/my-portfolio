@@ -38,7 +38,6 @@
       
     }
 
-
     &-description {
 
         padding-bottom: 30px;
@@ -67,8 +66,10 @@
 
     }
 
-    &-slide-right {
+    &-slide-left {
 
+        display: flex;
+        flex-direction: column;
         animation: move 6s ease-in-out infinite alternate;
 
         visibility: visible ;	
@@ -93,17 +94,61 @@
 
 @media screen and (max-width: 480px) {
     
-    .product-list {
+    .skills {
 
-        padding: 10px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 0px;
 
-        &-texts {
+        margin-top: 50px;
 
-            width: 100%;
+        &-left {
+
+            gap: 50px;
+            margin-left: 0px;
+            padding: 0px;
         }
-         &-description {
+
+        &-right {
+
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            border: none;
+
+            padding-bottom: 400px;
+            margin-right: 0px;
+
+            height: 30vh;
+        }
+
+        &-slide-left {
+
+            justify-content: center;
+            align-items: center;
+        }
+
+        &-description {
+
+            padding-bottom: 0px;
+        }
+
+        &-subscribtion {
 
             display: none;
-         }
+        }
+
+        &-right-img {
+
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+
+            height: 0px;
+
+        }
     }
 }
