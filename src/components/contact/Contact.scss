@@ -1,7 +1,6 @@
 .contact {
 
     height: 100vh;
-
     position: relative;
 
     &-background {
@@ -17,15 +16,19 @@
         
         display: flex;
         align-items: center;
+        gap: 20px;
 
-        padding: 50px;
+        padding: 20px;
     }
 
     &-left {
 
         flex: 1;
-
-        padding-left: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+       
+        padding-left: 150px;
     }
 
     &-right {
@@ -55,12 +58,11 @@
     &-info {
 
         display: flex;
-        align-content: flex-start;
         flex-direction: column;
+        justify-content:space-between;
         gap: 40px;
-
-        padding: 50px;
-        margin: 10px 0px;
+    
+        margin: 20px 0px;
     
     }
 
@@ -68,7 +70,7 @@
 
         display: flex;
         align-items: center;
-        gap: 10px;
+        gap: 30px;
 
         color: #6c7aa8;
 
@@ -88,7 +90,7 @@
 
     form {
 
-        margin-top: 30px;
+        margin-top: 20px;
     }
     
     input {
