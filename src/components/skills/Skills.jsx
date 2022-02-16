@@ -1,14 +1,14 @@
 import React from 'react';
 import "./Skills.scss";
-import HTML from "../../img/Rectangle2.png";
-import CSS from "../../img/Rectangle1.png";
-import JS from "../../img/Rectangle3.png";
-import SASS from "../../img/Rectangle4.png";
-import NODE from "../../img/Rectangle9.png";
-import PHP from "../../img/Rectangle7.png";
-import SQL from "../../img/Rectangle6.png";
-import REACT from "../../img/Rectangle8.png";
-import WP from "../../img/Rectangle5.png";
+import Html from "../../img/Rectangle2.png";
+import Css from "../../img/Rectangle1.png";
+import Js from "../../img/Rectangle3.png";
+import Sass from "../../img/Rectangle4.png";
+import Node from "../../img/Rectangle9.png";
+import Php from "../../img/Rectangle7.png";
+import Sql from "../../img/Rectangle6.png";
+import ReactV from "../../img/Rectangle8.png";
+import Wp from "../../img/Rectangle5.png";
 
 const Skills = () => {
 
@@ -34,15 +34,15 @@ const Skills = () => {
             </div>
             <div className="skills-right">
                 <div className="skills-right-img">
-                    <img src={HTML} alt="" className="skills-logo" />
-                    <img src={CSS} alt="" className="skills-logo" />
-                    <img src={JS} alt="" className="skills-logo" />
-                    <img src={SASS} alt="" className="skills-logo" />
-                    <img src={NODE} alt="" className="skills-logo" />
-                    <img src={PHP} alt="" className="skills-logo" />
-                    <img src={SQL} alt="" className="skills-logo" />
-                    <img src={REACT} alt="" className="skills-logo" />
-                    <img src={WP} alt="" className="skills-logo" />
+                    <img src={Html} alt="" className="skills-logo" />
+                    <img src={Css} alt="" className="skills-logo" />
+                    <img src={Js} alt="" className="skills-logo" />
+                    <img src={Sass} alt="" className="skills-logo" />
+                    <img src={Node} alt="" className="skills-logo" />
+                    <img src={Php} alt="" className="skills-logo" />
+                    <img src={Sql} alt="" className="skills-logo" />
+                    <img src={ReactV} alt="" className="skills-logo" />
+                    <img src={Wp} alt="" className="skills-logo" />
                 </div>
             </div>
         </div>
